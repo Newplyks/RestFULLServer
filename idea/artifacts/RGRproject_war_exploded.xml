@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RGRproject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/RGRproject_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="RGRproject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RGRproject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.google.code.gson:gson:2.8.5" />
+          <element id="library" level="project" name="mysql:mysql-connector-java:8.0.11" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
